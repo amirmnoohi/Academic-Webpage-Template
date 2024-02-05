@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Antonio Barbalace | Senior Lecturer at University of Edinburgh</title>
+    <meta property="og:title" content="Senior Lecturer at University of Edinburgh"/>
+    <meta property="og:locale" content="en_US"/>
+    <link rel="canonical" href="https://noohi.org/antonio/"/>
+    <meta property="og:url" content="https://noohi.org/antonio/"/>
+    <meta property="og:site_name" content="Senior Lecturer at University of Edinburgh"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="Senior Lecturer at University of Edinburgh"/>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "headline": "Antonio Barbalce",
+            "name": "Antonio Barbalce",
+            "url": "https://noohi.org/antonio/"
+        }
+    </script>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+<body onload="showSection('about-section')">
+<nav class="navbar">
+
+    <div class="container header-container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+                <h1>Antonio Barbalace</h1>
+                <h2>Senior Lecturer at University of Edinburgh</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+                <ul class="icons no-print">
+                    <li>
+                        <a target="_blank" href="https://scholar.google.com/citations?user=uQWP8_0AAAAJ"
+                           class="button button--sacnite button--round-l">
+                            <i class="fab fa-google" title="Google scholar link"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/systems-nuts"
+                           class="button button--sacnite button--round-l">
+                            <i class="fab fa-github" title="Github link"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.linkedin.com/pub/antonio-barbalace/b/400/172"
+                           class="button button--sacnite button--round-l">
+                            <i class="fab fa-linkedin" title="Linkedin link"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.research.ed.ac.uk/portal/en/persons/antonio-barbalace(406b3e02-12aa-4c90-b68a-b6325ce7baff)/publications.html"
+                           target="_blank" class="button button--sacnite button--round-l">
+                            <i class="fas fa-school" title="Edinburgh Research Explorer"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <button id="theme-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 472.39 472.39">
+                                <g class="toggle-sun">
+                                    <path d="M403.21,167V69.18H305.38L236.2,0,167,69.18H69.18V167L0,236.2l69.18,69.18v97.83H167l69.18,69.18,69.18-69.18h97.83V305.38l69.18-69.18Zm-167,198.17a129,129,0,1,1,129-129A129,129,0,0,1,236.2,365.19Z"/>
+                                </g>
+                                <g class="toggle-circle">
+                                    <circle class="cls-1" cx="236.2" cy="236.2" r="103.78"/>
+                                </g>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+                <p>
+                    Email: <a href="mailto:abarbala@ed.ac.uk" target="_blank">abarbala@ed.ac.uk</a>
+                </p>
+            </div>
+            <div class="col-xs-12 navbar-bottom-menu">
+                <div class="dashed-line"></div>
+
+                <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+                <nav class="navbar-menu">
+                    <ul id="menu">
+                        <li><a href="javascript:void(0)" onclick="showSection('about-section')">Home</a></li>
+                        <li><a href="javascript:void(0)" onclick="showSection('teaching-section')">Teaching</a></li>
+                        <li><a href="javascript:void(0)" onclick="showSection('publications-section')">Publications</a>
+                        </li>
+                        <li><a href="javascript:void(0)" onclick="showSection('projects-section')">Projects</a></li>
+                        <li><a href="javascript:void(0)" onclick="showSection('team-section')">Team</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+
+
+        </div>
+    </div>
+</nav>
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+        <div class="container intro-container">
+
+            <div id="about-section" class="section">
+
+                <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+                        <span class="profile-img" style="background-image: url(./images/pic.jpeg)"></span>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+                        <p>I am Antonio Barbalace, Senior Lecturer with the
+                            <mark><a href="http://web.inf.ed.ac.uk/icsa">Institute for Computing
+                                Systems Architecture (ICSA)</a></mark>
+                            in the
+                            <mark><a href="http://web.inf.ed.ac.uk/icsa">School of Informatics</a>
+                            </mark>
+                            at
+                            <mark><a href="http://web.inf.ed.ac.uk/icsa">The University of
+                                Edinburgh</a></mark>
+                            .
+                        </p>
+                        <p>My research focuses on
+                            <mark>System Software</mark>
+                            . Specifically, operating systems (Linux, DragonFlyBSD, Darwin, L4), virtualization
+                            environments
+                            (QEMU, QEMU/KVM, and Xen), and run-times/compilers/linkers (LLVM, gcc, ld, gold) for
+                            parallel,
+                            distributed and heterogeneous computer architectures (including near data processing
+                            platforms).
+                            My interests include general-purpose and real-time scheduling, synchronization protocols,
+                            distributed algorithms, networking, and storage systems. Performance analysis is my favorite
+                            way
+                            of investigation using tracing or simulation tools. Lately, I am investigating power
+                            efficiency,
+                            fault-tolerance, and security. I am also interested in industrial control systems, signal
+                            and
+                            image processing.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="container text-container">
+                    <h3>Education and Experience</h3>
+                    <div class="row clearfix">
+                        <div class="col-md-12">
+                            <p> Before moving to the University of Edinburgh I held an Assistant Professor position at
+                                Stevens Institute of Technology -- just in front of NYC. Earlier, I was a Principal
+                                Research
+                                Scientist and Manager at the Germen Research Center of Huawei in Munich, working within
+                                the
+                                OS and Virtualization team of the IT Software Infrastructure Lab (director Dr. Goetz
+                                Brasche). There, I started the work on the NDP Operating System, some real-time
+                                projects,
+                                and established a new microkernel hypervisor to be formally verified.
+                                Prior to the German Research Center, I spent 5 years as a Research Assistant Professor,
+                                and
+                                before a postdoc, at the Systems Software Research Group of ECE Virginia Tech, working
+                                closely with my mentor and supervisor Prof. Binoy Ravindran. At VT, I started with Prof.
+                                Ravindran the family of Popcorn projects (Linux, Xen, LLVM) which looked at how to
+                                manage
+                                hardware heterogeneity. At VT I also worked on other real-time and hypervisor projects
+                                --
+                                financed mainly by ONR and ASFOR.
+                                Before moving to Virginia in November 2011, I was a Research Staff Member at the Italian
+                                National Research Council (
+                                <mark><a href="http://www.cnr.it/">CNR</a></mark>
+                                ) in Padova, Italy, working at the big physics experiment
+                                <mark><a href="http://www.igi.cnr.it/">RFX</a></mark>
+                                .
+                                I graduated with my PhD at the end of 2010 from the University of Padova under the
+                                supervision of Professors Giuseppe Zollino, Adriano Luchetta and Gabriele Manduchi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-container">
+                    <h3 id="available-positions">Available Positions</h3>
+                    <div class="row clearfix">
+                        <div class="col-md-12"
+                             style="background-color: #f2f2f2; border-left: 5px solid #394a6e;  border-right: 5px solid #394a6e; padding: 20px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <p style="font-size: 18px; line-height: 1.6; color: #333;">
+                                <strong>I am looking for talented (BS, MS, PhD) students and postdocs to join my group
+                                    at
+                                    University
+                                    of Edinburgh!</strong> If you like to hack system and application code, write me an
+                                email or stop by
+                                my office!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row clearfix" style="margin-top: 20px;">
+                        <div class="col-md-12" style="text-align: center;">
+                            <a href="LINK_TO_APPLICATION" class="btn btn-primary"
+                               style="font-size: 18px; padding: 10px 20px; border-radius: 5px; text-decoration: none; color: white; background-color: #394a6e;">Apply
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="teaching-section" class="section" style="display:none;">
+                <div class="container list-container">
+                    <h3 id="teaching">Teaching</h3>
+
+                    <!-- University of Edinburgh -->
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <p><b>University of Edinburgh</b></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                <li><strong>Operating Systems (INFR)</strong>: 2023/2024 Semester 2</li>
+                                <li><strong>Operating Systems (INFR)</strong>: 2022/2023 Semester 2</li>
+                                <li><strong>Operating Systems (INFR)</strong>: 2021/2022 Semester 2</li>
+                                <li><strong>Operating Systems (INFR)</strong>: 2020/2021 Semester 2</li>
+                                <li><strong>Operating Systems (INFR)</strong>: 2019/2020 Semester 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Stevens Institute of Technology -->
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <p><b>Stevens Institute of Technology</b></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                <li><strong>Computer Architecture</strong>: 2019/2020 Spring Semester</li>
+                                <li><strong>Operating Systems</strong>: 2018/2019 Spring Semester</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Virginia Tech -->
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <p><b>Virginia Tech</b></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                <li><strong>Applied Software Design</strong>: 2015/2016 Spring Semester</li>
+                                <li><strong>Real-time Systems</strong>: 2014/2015 Spring Semester -- substitute
+                                    instructor
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- University of Padova -->
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <p><b>University of Padova</b></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                <li><strong>Real-time Systems/C Programming and Interfaces</strong>: 2010/2011
+                                    Spring
+                                    Semester
+                                </li>
+                                <li><strong>Real-time Systems/C Programming and Interfaces</strong>: 2009/2010
+                                    Spring
+                                    Semester
+                                </li>
+                                <li><strong>Real-time Systems/C Programming and Interfaces</strong>: 2008/2009
+                                    Spring
+                                    Semester
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="team-section" class="section" style="display:none;">
+
+                <div class="container">
+                    <h3 id="students-postdocs">Students and Postdocs</h3>
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card" data-state="#about1">
+                                <div class="card-header">
+                                    <div class="card-cover" style="background-image: url('https://i.postimg.cc/d3bRVNjZ/DALL-E-2023-12-27-02-52-54-A-background-image-inspired-by-the-colors-of-a-sunset-over-the-ocean-T.png')"></div>
+                                    <img class="card-avatar"
+                                         src="https://media.licdn.com/dms/image/C4D03AQFJcIotaQoNcA/profile-displayphoto-shrink_800_800/0/1634249192801?e=1709164800&v=beta&t=jvTorBpVlOU9NwR0HxDs_VFP_nCxDzmfv-tMFxo2vXs"
+                                         alt="avatar"/>
+                                    <h1 class="card-fullname">Amir Noohi</h1>
+                                </div>
+                                <div class="card-main">
+                                    <div class="card-section is-active" id="about1">
+                                        <div class="card-content">
+                                            <div class="card-subtitle">ABOUT</div>
+                                            <p class="card-desc">Computer Networks, Distributed Systems, Operating
+                                                Systems, and Cloud Computing</p>
+                                            </p>
+                                        </div>
+                                        <div class="card-social">
+                                            <a href="#">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z"/>
+                                                </svg>
+                                            </a>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/>
+                                                </svg>
+                                            </a>
+                                            <a href="#">
+                                                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0"/>
+                                                    <path d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0"/>
+                                                    <path d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0"/>
+                                                </svg>
+                                            </a>
+                                            <a href="#">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-section" id="contact1">
+                                        <div class="card-content">
+                                            <div class="card-subtitle">CONTACT</div>
+                                            <div class="card-contact-wrapper">
+                                                <div class="card-contact">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                         fill="none" stroke="currentColor" stroke-width="2"
+                                                         stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                                        <circle cx="12" cy="10" r="3"/>
+                                                    </svg>
+                                                    7 Richmond Place, Edinburgh, EH8 9ST
+                                                </div>
+                                                <div class="card-contact">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"
+                                                         fill="none" stroke="currentColor" stroke-width="2"
+                                                         stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                                    </svg>
+                                                    (777) 422-2216
+                                                </div>
+                                                <div class="card-contact">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                         fill="none" stroke="currentColor" stroke-width="2"
+                                                         stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                                        <path d="M22 6l-10 7L2 6"/>
+                                                    </svg>
+                                                    amir.noohi@ed.ac.uk
+                                                </div>
+                                                <button class="contact-me">Website</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <button data-section="#about1" class="is-active">ABOUT</button>
+                                        <button data-section="#contact1">CONTACT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card" data-state="#about2">
+                                <div class="card-header">
+                                    <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
+                                    <img class="card-avatar"
+                                         src="https://ca.slack-edge.com/T640A30NA-U01BR6D7279-a227249e9765-512"
+                                         alt="avatar"/>
+                                    <h1 class="card-fullname">Karim Manaouil</h1>
+                                </div>
+                                <div class="card-main">
+                                    <div class="card-section is-active" id="about2">
+                                        <div class="card-content">
+                                            <div class="card-subtitle">ABOUT</div>
+                                            <p class="card-desc">Linux Kernel, Operating Systems, and Cloud Computing</p>
+                                            </p>
+                                        </div>
+                                        <div class="card-social">
+                                            <a href="#">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z"/>
+                                                </svg>
+                                            </a>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/>
+                                                </svg>
+                                            </a>
+                                            <a href="#">
+                                                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0"/>
+                                                    <path d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0"/>
+                                                    <path d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0"/>
+                                                </svg>
+                                            </a>
+                                            <a href="#">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-section" id="contact2">
+                                        <div class="card-content">
+                                            <div class="card-subtitle">CONTACT</div>
+                                            <div class="card-contact-wrapper">
+                                                <div class="card-contact">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                         fill="none" stroke="currentColor" stroke-width="2"
+                                                         stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                                        <circle cx="12" cy="10" r="3"/>
+                                                    </svg>
+                                                    Nicolson St, Edinburgh, EH8 9ST
+                                                </div>
+                                                <div class="card-contact">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"
+                                                         fill="none" stroke="currentColor" stroke-width="2"
+                                                         stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                                    </svg>
+                                                    (269) 756-9809
+                                                </div>
+                                                <div class="card-contact">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                         fill="none" stroke="currentColor" stroke-width="2"
+                                                         stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                                        <path d="M22 6l-10 7L2 6"/>
+                                                    </svg>
+                                                    k.manouil@ed.ac.uk
+                                                </div>
+                                                <button class="contact-me">Website</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <button data-section="#about2" class="is-active">ABOUT</button>
+                                        <button data-section="#contact2">CONTACT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="projects-section" class="section" style="display:none;">
+                <div class="container list-container">
+                    <h3 id="projects">Projects</h3>
+
+                    <!-- Current Projects -->
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <p><b>Current Projects</b></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <p>
+                                NEW! Data-center scale classical simulation of quantum computer<br>
+                                NEW! Quantum circuit cutting<br>
+                                Popcorn Linux Next++ <br>
+                                Popcorn Compiler Framework for managed languages<br>
+                                Popcorn Linux for CC shared memory heterogeneous processors <br>
+                                Compiler (LLVM) optimizations based on physical laws and quantities <br>
+                                Data-center scale in-storage processing <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Past Projects -->
+                <div class="row clearfix layout layout-left border-no">
+                    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                        <p><b>Past Projects</b></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                        <p>
+                            (Edinburgh) Anubis, IO-aware VM scheduling (Linux/KVM) <a
+                                href="https://github.com/systems-nuts/Anubis" class="link-icon"><i
+                                class="fas fa-link"></i></a><br>
+                            (Edinburgh) FragVisor <a href="https://github.com/systems-nuts/FragVisor"
+                                                     class="link-icon"><i
+                                class="fas fa-link"></i></a><br>
+                            (Stevens) H-Containers <a href="https://github.com/systems-nuts/hcontainer-tutorial"
+                                                      class="link-icon"><i class="fas fa-link"></i></a><br>
+                            <!-- ... (additional past projects with links and icons) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contributed Projects -->
+                <div class="row clearfix layout layout-left border-no">
+                    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                        <p><b>Contributed Projects</b></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                        <p>
+                            MDSplus <a href="http://www.mdsplus.org" class="link-icon"><i
+                                class="fas fa-link"></i></a><br>
+                            FreeRTOS <a href="http://www.freertos.org" class="link-icon"><i
+                                class="fas fa-link"></i></a><br>
+                            UBOOT <a href="http://www.denx.de/wiki/U-Boot/WebHome" class="link-icon"><i
+                                class="fas fa-link"></i></a><br>
+                            <!-- ... (additional contributed projects with links and icons) -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="publications-section" class="section" style="display:none;">
+
+                <div class="container list-container">
+                    <h3 id="publications">Publications</h3>
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <p><b>Conference/Journal</b></p>
+                            <p class="no-print aditional-links">
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <p><strong>
+                                <mark>[SIGARCH 2017]</mark>
+                                Breaking the boundaries in heterogeneous-ISA datacenters </strong><a
+                                    href="/assets/papers/noohi.pdf"><img src="./images/file-lines-regular.svg"
+                                                                         width="12"/></a><br/>
+                                Antonio Barbalace, Robert Lyerly, Christopher Jelesnianski, Anthony Carno, Ho-Ren
+                                Chuang,
+                                Vincent Legout, Binoy Ravindran<br/>
+                                <em>ACM SIGARCH Computer Architecture News, Volume 45, Issue 1, Pages 645-659</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container list-container">
+                    <h3 id="grants-awards">Grants/Awards</h3>
+                    <div class="row clearfix layout layout-left border-no">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <h4 id=""></h4>
+                            <p><b>Grants</b></p>
+                            <p class="no-print aditional-links">
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            <p><strong>ONR: Office for Nuclear Regulation is the regulator for the nuclear industry
+                                in
+                                the
+                                United Kingdom</strong>, National Science Foundation, 2020–2023<br/>
+                                PI: Antonio Barbalace; co-PIs: Amir Noohi<br/>
+                                <strong>HUAWEI: multinational technology corporation headquartered</strong>, UoE,
+                                2020–2024
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+
+<footer class="navbar" style="margin-bottom: 0px">
+    <div class="container header-container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+                <p style="
+    font-size: 30px;
+    font-weight: 900;
+    text-align: inherit;
+">Antonio Barbalace</p>
+                <h2>Senior Lecturer at University of Edinburgh</h2>
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+                <p style="font-size: 20px;margin-top: 18px;">
+                    <span style="font-size: 20px; font-weight: 600">Last Update:</span> <span
+                        style="font-size: 20px; font-weight: 300">30 Dec 2023</span>
+                </p>
+                <p style="font-size: 20px;">
+                    <span style="font-size: 20px; font-weight: 600">Email:</span> <span
+                        style="font-size: 20px; font-weight: 300"><a href="mailto:abarbala@ed.ac.uk" target="_blank">abarbala@ed.ac.uk</span>
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
